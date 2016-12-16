@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript" src="searchAndSuggestionHttpcart.js"></script>
+<body>
+
+<p>This example uses the addEventListener() method to attach a click event to a button.</p>
+<input type="text" id="myid">
+<button id="myBtn">Try it</button>
+
+
+<script>
+addSuggestionAndSearchHttpcart("test.php?search=","myid","myBtn",function(cal){console.log("chk "+cal);});
+</script>
+
+</body>
+</html> 
